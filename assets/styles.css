@@ -672,7 +672,7 @@ a.contact-card:hover {
   }
 }
 /* Public mobile polish — single-column workforce and compact language control. */
-@media(max-width:760px) {
+@media(max-width:900px) {
   .workforce {
     grid-template-columns:minmax(0,1fr);
     gap:22px;
