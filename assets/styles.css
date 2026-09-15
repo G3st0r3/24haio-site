@@ -699,3 +699,48 @@ a.contact-card:hover {
     gap:6px;
   }
 }
+
+/* Final public mobile header alignment. */
+@media(max-width:900px) {
+  .header {
+    min-height:auto;
+    padding-block:18px 14px;
+    flex-wrap:wrap;
+    row-gap:14px;
+  }
+
+  .wordmark {
+    flex:0 0 auto;
+  }
+
+  .language-selector {
+    margin-inline-start:auto;
+    flex:0 0 64px;
+  }
+
+  .header nav {
+    order:3;
+    width:100%;
+    margin-inline-start:0;
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:0;
+    align-items:center;
+  }
+
+  .header nav a {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-width:0;
+    min-height:42px;
+    padding:8px 4px;
+    text-align:center;
+    line-height:1.15;
+    white-space:nowrap;
+  }
+
+  .header nav a:last-child {
+    justify-content:center;
+  }
+}
