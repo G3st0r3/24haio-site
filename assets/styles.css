@@ -671,3 +671,31 @@ a.contact-card:hover {
     padding:22px;
   }
 }\n
+/* Public mobile polish — single-column workforce and compact language control. */
+@media(max-width:760px) {
+  .workforce {
+    grid-template-columns:minmax(0,1fr);
+    gap:22px;
+  }
+
+  .workforce article {
+    padding:20px;
+  }
+
+  .workforce h3 {
+    font-size:30px;
+  }
+
+  .workforce img,
+  .workforce article:first-child img {
+    width:min(100%,420px);
+    margin-inline:auto;
+  }
+
+  .language-selector {
+    min-width:64px;
+    width:64px;
+    padding:8px 9px;
+    gap:6px;
+  }
+}
