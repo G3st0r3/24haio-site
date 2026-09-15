@@ -670,7 +670,7 @@ a.contact-card:hover {
     min-height:160px;
     padding:22px;
   }
-}\n
+}
 /* Public mobile polish — single-column workforce and compact language control. */
 @media(max-width:760px) {
   .workforce {
